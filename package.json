@@ -1,0 +1,37 @@
+{
+  "name": "env2json",
+  "version": "1.0.0",
+  "description": "Export environment variables to JSON",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sinedied/env2json.git"
+  },
+  "keywords": [
+    "env",
+    "environment",
+    "variable",
+    "json",
+    "export",
+    "file"
+  ],
+  "author": "Yohan Lasorsa",
+  "license": "MIT",
+  "homepage": "https://github.com/sinedied/env2json",
+  "bugs": {
+    "url": "https://github.com/sinedied/env2json/issues"
+  },
+  "main": "index.js",
+  "bin": {
+    "env2json": "./bin/env2json"
+  },
+  "scripts": {
+    "test": "./bin/env2json npm_package_version \"unknown\" -o test.json && ./bin/env2json npm_package_version \"unknown\"",
+    "postpublish": "git tag -a $npm_package_version -m '$npm_package_version' && git push --tags"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=5.0.0"
+  }
+}
