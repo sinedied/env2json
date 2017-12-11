@@ -1,6 +1,6 @@
 {
   "name": "env2json",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Export environment variables to JSON or JavaScript",
   "repository": {
     "type": "git",
