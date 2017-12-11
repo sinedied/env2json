@@ -27,7 +27,7 @@
   },
   "scripts": {
     "test": "./bin/env2json npm_package_version \"unknown\" -o test.json && ./bin/env2json npm_package_version \"unknown\"",
-    "postpublish": "git tag -a $npm_package_version -m '$npm_package_version' && git push --tags"
+    "postpublish": "git tag -a $npm_package_version -m \"$npm_package_version\" && git push --tags"
   },
   "dependencies": {
     "minimist": "^1.2.0"
