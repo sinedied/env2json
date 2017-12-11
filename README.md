@@ -4,7 +4,7 @@
 ![Node version](https://img.shields.io/node/v/env2json.svg)
 [![License](https://img.shields.io/npm/l/env2json.svg)](LICENSE)
 
-> Export environment variables to JSON.
+> Export environment variables to JSON or JavaScript.
 
 ## Installation
 
@@ -15,8 +15,9 @@ npm install -g env2json
 ### Usage
 
 ```
-Usage: env2json <env_var> [<env_var2> ...] [-o <file.json>]
+Usage: env2json <env_var> [<env_var2> ...] [-o <file>] [-f json|js]
 
 Options:
-  -o <file.json>  Export the JSON to specified file instead of stdout
+  -o <file>    Export to specified file instead of stdout
+  -f json|js   Output format, can be JSON or JavaScript
 ```

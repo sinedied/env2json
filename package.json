@@ -1,7 +1,7 @@
 {
   "name": "env2json",
   "version": "1.0.0",
-  "description": "Export environment variables to JSON",
+  "description": "Export environment variables to JSON or JavaScript",
   "repository": {
     "type": "git",
     "url": "https://github.com/sinedied/env2json.git"
@@ -11,6 +11,7 @@
     "environment",
     "variable",
     "json",
+    "javascript",
     "export",
     "file"
   ],
@@ -32,6 +33,6 @@
     "minimist": "^1.2.0"
   },
   "engines": {
-    "node": ">=5.0.0"
+    "node": ">=6.0.0"
   }
 }
