@@ -25,7 +25,7 @@ let env = JSON.stringify(args._.reduce((env, v) => {
 if (args.f === 'js') {
   // Change to single quotes
   env = env.replace(/"([^"\\]*(?:\\.[^"\\]*)*)"/g, (match, v) => {
-    const s =v
+    const s = v
       .replace(/'/g, '\\\'')
       .replace(/\\"/g, '"');
       return `'${s}'`;
